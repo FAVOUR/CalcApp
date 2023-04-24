@@ -1,10 +1,6 @@
 # CalcApp
 Sonar Cloud enabled project 
 
-<div style="display: flex; flex-direction: row;">
- <img class="img" https://sonarcloud.io/api/project_badges/measure?project=FAVOUR_CalcApp&metric=alert_status" />
- <img class="img" src="https://sonarcloud.io/api/project_badges/measure?project=FAVOUR_CalcApp&metric=duplicated_lines_density" />
-</div>
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=FAVOUR_CalcApp&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=FAVOUR_CalcApp)
 
@@ -29,3 +25,9 @@ Sonar Cloud enabled project
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=FAVOUR_CalcApp&metric=bugs)](https://sonarcloud.io/summary/new_code?id=FAVOUR_CalcApp)
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=FAVOUR_CalcApp&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=FAVOUR_CalcApp)
+
+
+<div style="display: flex; flex-direction: row;">
+ <img class="img" https://sonarcloud.io/api/project_badges/measure?project=FAVOUR_CalcApp&metric=alert_status" />
+ <img class="img" src="https://sonarcloud.io/api/project_badges/measure?project=FAVOUR_CalcApp&metric=duplicated_lines_density" />
+</div>
