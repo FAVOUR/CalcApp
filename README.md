@@ -1,5 +1,4 @@
 # CalcApp
-Sonar Cloud enabled project 
 
 
 <div style="display: flex; flex-direction: row;">
