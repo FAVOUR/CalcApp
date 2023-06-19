@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.annotation.NonNull
+import com.example.simplecalc.ApiClient.retrofit
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlin.properties.Delegates
 
@@ -13,9 +14,15 @@ class MainActivity : AppCompatActivity() {
     var Operand2 by Delegates.notNull<Double>()
     lateinit var calculator: Calculator
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val okay = BuildConfig.BUILD_TYPE
+        print("okay $okay")
+        val hold = retrofit
 
         calculator= Calculator()
 
