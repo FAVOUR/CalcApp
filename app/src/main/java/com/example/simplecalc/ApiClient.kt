@@ -4,7 +4,8 @@ import retrofit2.Retrofit
 
 object  ApiClient {
 
-    private var API_BASE_URL = BuildConfig.BASE_URL
+//    private var API_BASE_URL = BuildConfig.BASE_URL
+    private var API_BASE_URL = BuildConfig.VERSION_NAME
 
 
     val retrofit: Retrofit by lazy {
