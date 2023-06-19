@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val okay = BuildConfig.BUILD_TYPE
-        print("okay $okay")
-        val hold = retrofit
+//        val okay = BuildConfig.BUILD_TYPE
+//        print("okay $okay")
+//        val hold = retrofit
 
         calculator= Calculator()
 
