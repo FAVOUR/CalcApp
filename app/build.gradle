@@ -15,17 +15,19 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        //            buildConfigField 'String', 'BASE_URL','"https://geggr-stage.grggrgen.com/"'
+
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField 'String', 'BASE_URL','"https://geggr-stage.grggr.com/"'
+//            buildConfigField 'String', 'BASE_URL','"https://geggr-stage.grggrProd.com/"'
 
         }
 
         debug{
-            buildConfigField 'String', 'BASE_URL','"https://geggr-stage.grggr.com/"'
+            buildConfigField 'String', 'BASE_URL','"https://geggr-stage.grggrloc.com/"'
         }
     }
 
