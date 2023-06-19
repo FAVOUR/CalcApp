@@ -24,6 +24,11 @@ sonarqube {
     property "sonar.projectKey", "FAVOUR_CalcApp"
     property "sonar.organization", "favour"
     property "sonar.host.url", "https://sonarcloud.io"
+//    property "sonar.binaries", "${project.projectDir}/build"
+//   property "sonar.binaries" ,"build/classes/kotlin"
+//   property "sonar.java.binaries ","build/classes/, build/classes/kotlin"
+//   property "sonar.binaries", "build/intermediates/classes/, app/build/classes/"
+
   }
 }
 
