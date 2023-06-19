@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.annotation.NonNull
-import com.example.simplecalc.ApiClient.retrofit
+//import com.example.simplecalc.ApiClient.retrofit
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlin.properties.Delegates
 
